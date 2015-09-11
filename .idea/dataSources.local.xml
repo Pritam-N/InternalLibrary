@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - internallibrary@127.0.0.1" uuid="6885b109-66b4-469a-92fb-cf399d517cc2">
+      <secret-storage>master_key</secret-storage>
+      <user-name>pritama</user-name>
+      <schema-pattern>internallibrary.*</schema-pattern>
+      <default-schemas>internallibrary.*</default-schemas>
+    </data-source>
+  </component>
+</project>

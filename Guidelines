@@ -1,0 +1,28 @@
+Coding Conventions:
+
+1. Any code that is not common or self-explanatory should have inline comments.
+2. Each file must include a file header comment to describe what the intended purpose of the file is.
+3. Use appropriate scope while defining a variable.
+4. Not a single DB call should appear in a loop.
+5. Error handling as much as possible at global level each layer and specific exceptions at local & Error Logging.
+6. Don’t keep hard coded values with in code. Use separate config file / application.cfm.
+7. No dead code – Don’t keep dead code / unused inside code file.
+8. NO EXCESS DATA – if more data is returned to the client than is necessary, the client must wait unnecessarily for the data download.
+9. Don’t keep a single unused / dead file and folder inside project folder.
+10.Each commit must contain enough comments / remarks to explain the reason of commit.
+11.While using variables in functions or any cfm page, normally we should declare them at the starting of the page.
+12.Error Log Function :
+	A. Any code that goes to catch block, should be handled properly to display proper error messages to the user using the interface
+   	   and also log the error that occurred for the developer to work on the issue.
+	B. In catch block, we should be calling a function suppose 'handleError' that should contain the functionality of writing the error
+	   to the error log file.
+
+Naming Conventions:
+1. All variables should be in Camel Case.
+2. All functions should be in Pascal Case.
+3. All scopes should be in BLOCK letters.
+
+CFML formatting conventions:
+
+1. Tags and their attributes should be written in lowercase letters.(optional, maintain consistency)
+2. Always use double-quotation marks around attribute values.(optional, maintain consistency)

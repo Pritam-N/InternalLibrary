@@ -1,0 +1,347 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100px;
+}
+
+/* override navbar class of bootstrap*/
+
+.navbar-inverse{
+    border-color: transparent;
+    background: #054B6B ;
+   /* background: url("../img/background.jpg") ;*/
+    min-height: 85px;
+}
+
+.titleText {
+    float: left;
+    padding: 15px 15px;
+    font-size: 32px;
+    color: white;
+}
+
+.titleText:hover, .titleText:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.menuBar {
+    min-height: 40px;
+   }
+
+.homeContent {
+    height: 500px;
+    background: white;
+}
+
+
+
+.homeDisplay {
+    min-height: 550px;
+    background-color: white;
+}
+
+.menuTabs {
+    float: right;
+    color: darkgray;
+    font-size : x-large;
+    font-family: sans-serif;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-bottom:1px solid #DDD;
+}
+
+body {
+    background-color: #fff;
+}
+
+.wrapper {
+    min-height: 550px;
+    border: 1px #e4e4e4 solid;
+    padding: 20px;
+    box-shadow: 0 0 6px #ccc;
+    background-color: #fff;
+}
+
+.accountTab {
+    color: white;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#userLogin:hover {
+    cursor: pointer;
+}
+
+/* bootstrap class override for login modal */
+
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: #2f96b4 ;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+}
+
+
+.login-tab {
+    margin: 0 auto;
+    max-width: 380px;
+}
+
+.login-modal-header {
+    background: #33bfcc;
+    color: #fff;
+}
+
+.login-modal-header .modal-title {
+    color: #fff;
+}
+
+.login-modal-header .close {
+    color: #fff;
+}
+
+.login-modal i {
+    color: #000;
+}
+
+.login-modal form {
+    max-width: 340px;
+}
+
+.tab-pane form {
+    margin: 0 auto;
+}
+.login-modal-footer{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.footer{
+    height: 200px;
+    background-color: #054B6B;
+    color: whitesmoke;
+    box-shadow: inset 0 0 3px 0 #000;
+}
+.container {
+     padding-right: 0px;
+     padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contactUs{
+    width: 30%;
+    font-size: 12px;
+    margin: 40px;
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    padding: 10px;
+    float: left;
+}
+.siteLinks{
+    float: left;
+    padding: 10px;
+    margin: 40px 10px;
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    width: 20%;
+}
+.siteLinks ul li{
+    list-style: none;
+}
+.socialAndSubscribe{
+    float: right;
+    padding-left:  35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 35%;
+}
+#txtSubscription{
+    width: 80%;
+    height: 30px;
+    color: black;
+}
+#btnSubscription{
+	width:10%;
+    height: 30px;
+    margin-left: -5px;
+    background-color: gray;
+    border: 0px;
+}
+.greenBorder{
+	border: 1px solid gree;
+}
+.redBorder{
+	border: 1px solid red;
+}
+.short{
+	color:#FF0000;
+}
+
+.error .weak{
+	color:#E66C2C;
+}
+
+.good{
+	color:#2D98F3;
+}
+
+.strong{
+	color:#006400;
+}
+ul {list-style-type:none;margin:0;padding:0}
+.searchDiv{
+	margin-top: 10px;
+}
+#txtSearchBox{
+    height: 30px;
+    font-size: 16px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+ /* Negative indent footer by its height */
+  margin: 0 auto -35px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+#bodyDiv{
+	min-height: 768px;
+	height: auto;
+	background-color: white;
+}
+/* Set the fixed height of the footer here */
+#footer {
+  height: 50px;
+  /*background-color: #054B6B;*/
+  background-color: white;
+  border-top:1px solid #DDD;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  /*background-color: #f5f5f5;*/
+  background-color: white;
+}
+.nav-user{
+    box-shadow: 0 0 1px rgba(0,0,0,0.15);
+    background-color: white;
+}
+#navbarCollapse a{
+    color: black;
+    font-family: sans-serif;
+}
+#navbarCollapse a:active{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#copyright{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#9d9d9d;
+}
+#brand{
+	font-size: 28px;
+	color: black;
+	font-weight: bold;
+    font-family: sans-serif;
+}
+#bodyHeader{
+	height:300px;
+	background-color: darkgray;
+}
+input[type="text"]:disabled, input[type="textarea"]:disabled {
+    cursor: pointer;
+}
+.form-control[disabled], fieldset[disabled] .form-control{
+    cursor: pointer;
+}
+.searchDiv{
+    display: table-cell;
+    vertical-align: middle;
+}
+#bookTitle{
+    font-size: large;
+    overflow:hidden; 
+    text-overflow-multiline:ellipsis;
+    text-decoration: none;
+}
+#bookTitle:hover{
+    font-size: large;
+    overflow:hidden; 
+    text-overflow-multiline:ellipsis;
+    text-decoration: none;
+    color: #c45500;
+}
+#bookImage{
+    box-shadow: 0 0 10px #000;
+    width:100px;
+    height:150px;
+}
+.superscript { 
+    position: relative; 
+    font-size: 90%;
+    padding-left: 2px;
+    font-weight: 400;
+}
+#authorsDiv{
+    margin-bottom: 5px;
+    font-weight:200;
+    font-size: smaller;
+    /*border-bottom:1px solid #DDD;*/
+}
+#imageDiv{
+    padding: 20px;
+}
+#publisherDiv,#languageDiv{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.bookDetailHeading{
+    color:#0066c0;
+    font-size: smaller;
+}
+.bookDetailHeading:hover{
+    color: #c45500;
+    font-size: smaller;
+}
+.searchName{
+    color: #c45500;
+    display: inline;
+}
+.searchName span{
+    font-weight: bolder;
+}
+/* .accountTab ul{
+	list-style-type:none;
+}
+.accountTab ul ul{
+	display:none;
+	top:100%;
+}
+.accountTab ul ul li{
+	float:none;
+}
+.accountTab ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+.accountTab ul li:HOVER ul{
+	display:block;
+} */
